@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ak-bg: #F4F6F8;
+  --ak-surface: #FFFFFF;
+  --ak-card: #E6E9EE;
+  --ak-secondary: #C9CED6;
+  --ak-text: #36454F;
+  --ak-muted: #5A6B77;
+  --ak-border: #C9CED6;
+  --ak-accent: #E63946;
+  --ak-accent-fg: #FFFFFF;
+  --ak-badge: #36454F;
+}
+
+.dark {
+  --ak-bg: #0A0A0B;
+  --ak-surface: #13111C;
+  --ak-card: #191426;
+  --ak-secondary: #6B3FA0;
+  --ak-text: #F4F6F9;
+  --ak-muted: #A6A1B8;
+  --ak-border: #2F2347;
+  --ak-accent: #00E5FF;
+  --ak-accent-fg: #0A0A0B;
+  --ak-badge: #6B3FA0;
+}
